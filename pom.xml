@@ -12,6 +12,8 @@
     <modules>
         <module>zk-agent</module>
         <module>zk-basic</module>
+        <module>zk-web</module>
+        <module>zk-dubbo</module>
     </modules>
 
 
