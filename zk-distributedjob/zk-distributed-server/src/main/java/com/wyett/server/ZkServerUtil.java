@@ -28,7 +28,7 @@ public class ZkServerUtil {
 
     // static
     private static ZkClient zkClient;
-    private static final String zkServer = "192.168.100.1";
+    private static final String zkServer = "192.168.100.1:2181";
     private static final String rootPath = "/distributedjob";
     private static final int CONN_TIMEOUT = 10000;
     private static final int SESSION_TIMEOUT = 5000;
