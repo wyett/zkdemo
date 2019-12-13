@@ -1,4 +1,4 @@
-[2019-12-09 18:07:02] ZkEventThread.ZkClient-EventThread-11-10.18.56.30:2181, 10.18.57.168:2181, 10.18.56.149:2181 - INFO  - Starting ZkClient event thread.
+[2019-12-09 18:07:02] ZkEventThread.ZkClient-EventThread-11-192.168.100.1:2181 - INFO  - Starting ZkClient event thread.
  [2019-12-09 18:07:02] ZooKeeper.main - INFO  - Client environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT
  [2019-12-09 18:07:02] ZooKeeper.main - INFO  - Client environment:host.name=leiche10.mshome.net
  [2019-12-09 18:07:02] ZooKeeper.main - INFO  - Client environment:java.version=1.8.0_131
@@ -17,7 +17,7 @@
  [2019-12-09 18:07:02] ZooKeeper.main - INFO  - Client environment:os.memory.free=166MB
  [2019-12-09 18:07:02] ZooKeeper.main - INFO  - Client environment:os.memory.max=2709MB
  [2019-12-09 18:07:02] ZooKeeper.main - INFO  - Client environment:os.memory.total=184MB
- [2019-12-09 18:07:02] ZooKeeper.main - INFO  - Initiating client connection, connectString=10.18.56.30:2181, 10.18.57.168:2181, 10.18.56.149:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@546a03af
+ [2019-12-09 18:07:02] ZooKeeper.main - INFO  - Initiating client connection, connectString=192.168.100.1:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@546a03af
  [2019-12-09 18:07:02] X509Util.main - INFO  - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
  [2019-12-09 18:07:02] ClientCnxnSocket.main - INFO  - jute.maxbuffer value is 4194304 Bytes
  [2019-12-09 18:07:02] ClientCnxn.main - INFO  - zookeeper.request.timeout value is 0. feature enabled=
@@ -26,7 +26,7 @@
  [2019-12-09 18:07:07] ClientCnxn.main-SendThread(10.18.56.149:2181) - INFO  - Socket connection established, initiating session, client: /10.2.212.54:55077, server: 10.18.56.149/10.18.56.149:2181
  [2019-12-09 18:07:07] ClientCnxn.main-SendThread(10.18.56.149:2181) - INFO  - Session establishment complete on server 10.18.56.149/10.18.56.149:2181, sessionid = 0x30afb37deb00003, negotiated timeout = 5000
  [2019-12-09 18:07:07] ZkClient.main-EventThread - INFO  - zookeeper state changed (SyncConnected)
- [2019-12-09 18:08:12] ZkEventThread.ZkClient-EventThread-11-10.18.56.30:2181, 10.18.57.168:2181, 10.18.56.149:2181 - INFO  - Starting ZkClient event thread.
+ [2019-12-09 18:08:12] ZkEventThread.ZkClient-EventThread-11-192.168.100.1:2181 - INFO  - Starting ZkClient event thread.
  [2019-12-09 18:08:12] ZooKeeper.main - INFO  - Client environment:zookeeper.version=3.5.6-c11b7e26bc554b8523dc929761dd28808913f091, built on 10/08/2019 20:18 GMT
  [2019-12-09 18:08:12] ZooKeeper.main - INFO  - Client environment:host.name=leiche10.mshome.net
  [2019-12-09 18:08:12] ZooKeeper.main - INFO  - Client environment:java.version=1.8.0_131
@@ -45,7 +45,7 @@
  [2019-12-09 18:08:12] ZooKeeper.main - INFO  - Client environment:os.memory.free=167MB
  [2019-12-09 18:08:12] ZooKeeper.main - INFO  - Client environment:os.memory.max=2709MB
  [2019-12-09 18:08:12] ZooKeeper.main - INFO  - Client environment:os.memory.total=184MB
- [2019-12-09 18:08:12] ZooKeeper.main - INFO  - Initiating client connection, connectString=10.18.56.30:2181, 10.18.57.168:2181, 10.18.56.149:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@546a03af
+ [2019-12-09 18:08:12] ZooKeeper.main - INFO  - Initiating client connection, connectString=192.168.100.1:2181 sessionTimeout=5000 watcher=org.I0Itec.zkclient.ZkClient@546a03af
  [2019-12-09 18:08:12] X509Util.main - INFO  - Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
  [2019-12-09 18:08:13] ClientCnxnSocket.main - INFO  - jute.maxbuffer value is 4194304 Bytes
  [2019-12-09 18:08:13] ClientCnxn.main - INFO  - zookeeper.request.timeout value is 0. feature enabled=

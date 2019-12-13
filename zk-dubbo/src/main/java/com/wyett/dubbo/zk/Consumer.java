@@ -30,7 +30,7 @@ public class Consumer {
         // register conf
         RegistryConfig registry = new RegistryConfig();
 //        registry.setProtocol(dubbo);
-        registry.setAddress("zookeeper://10.18.56.30:2181, 10.18.57.168:2181, 10.18.56.149:2181");
+        registry.setAddress("zookeeper://192.168.100.1:2181");
 
 
         // Service config

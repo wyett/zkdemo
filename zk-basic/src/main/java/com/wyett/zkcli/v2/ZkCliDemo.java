@@ -18,7 +18,7 @@ import java.util.List;
 
 public class ZkCliDemo {
 
-    private static final String conn = "10.18.56.30:2181, 10.18.57.168:2181, 10.18.56.149:2181/wyettroot";
+    private static final String conn = "192.168.100.1:2181/wyettroot";
     private static final int CONN_TIME_OUT = 4000;
 
     private ZkClient zkClient;

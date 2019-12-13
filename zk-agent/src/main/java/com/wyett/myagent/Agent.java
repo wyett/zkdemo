@@ -26,7 +26,7 @@ import java.util.List;
 public class Agent {
     private static final Logger LOGGER = LoggerFactory.getLogger(Agent.class);
 
-    private static String zkConn = "10.18.56.30:2181, 10.18.57.168:2181, 10.18.56.149:2181";
+    private static String zkConn = "192.168.100.1:2181";
     private static final String ROOT_PATH = "/monitor";
     private static final int CONN_TIMEOUT = 10000;
     private static final int SESSION_TIMEOUT = 5000;

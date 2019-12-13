@@ -29,7 +29,7 @@ public class ZkMonitorControl implements InitializingBean {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ZkMonitorControl.class);
 
-    @Value("${10.18.56.30:2181, 10.18.57.168:2181, 10.18.56.149:2181}")
+    @Value("${192.168.100.1:2181}")
     private String zkServer;
     private ZkClient zkClient;
     private static final String rootPath = "/monitor";
